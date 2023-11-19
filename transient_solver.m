@@ -1,5 +1,5 @@
 clear all;
-netlist='Tran_Circuit.txt';
+netlist='netlists/Tran_Circuit.txt';
 Tstop = 20e-9;
 reltol = 0.001;
 vabstol = 1e-3;

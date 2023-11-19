@@ -1,5 +1,5 @@
 clear all;
-netlist = 'DCCircuit.txt';
+netlist = 'netlists/DCCircuit.txt';
 reltol = 0.001;
 vabstol = 1e-3;
 iabstol = 1e-6;
