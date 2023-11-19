@@ -30,7 +30,7 @@
 <details>
   <summary> 
     
-  ### Chapter 2 & 3 Projects: Build MNA matrix and solve MNA system
+  ### Chapter 2 & 3 Projects: Build MNA Matrix and Solve MNA Linear System
   </summary>
 
 * Implement a program to solve linear resistive circuits  <br />
@@ -72,7 +72,7 @@
 <details>
   <summary> 
     
-  ### Chapter 4 Project: DC Solver of non-linear circuits
+  ### Chapter 4 Project: DC Solver of Non-linear Circuits
   </summary>
 
 * Implement a DC Solver for non-linear circuit
@@ -101,5 +101,33 @@
   * Results:   <br />
         <picture>
            <img alt="DC Result" src="DC_Solution.png?raw=true">
+        </picture>
+</details>
+<details>
+  <summary> 
+    
+  ### Chapter 5 Project: Time-domain Circuit Simulator
+  </summary>
+
+* Implement a transient solver for non-linear circuit
+  * Use the existing parser
+  * Use the existing DC solver
+  * Use trapezoidal method for discretization
+  * Implement time step control by estimating the LTE
+* Implementation: Script transient_solve.m
+  * Input: netlist file 
+  * Output: Plot the transient waveforms for the desired outputs
+* Test: 
+  * Test circuit diagram:   <br />
+      <picture>
+         <img alt="Transient Circuit Diagram" src="tran_test_circuit_diagram.PNG?raw=true">
+      </picture> 
+  * Reference Solution:   <br />
+        <picture>
+           <img alt="Transient Reference Solution" src="tran_test_circuit_solution.PNG?raw=true">
+        </picture>
+  * Results:   <br />
+        <picture>
+           <img alt="Transient Result" src="TRAN_Solution.PNG?raw=true">
         </picture>
 </details>
