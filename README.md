@@ -45,11 +45,11 @@
 * Test:  <br />
   * Test circuit diagram:  <br />
       <picture>
-         <img alt="Linear Circuit Diagram" src="linear_test_circuit_diagram.PNG?raw=true">
+         <img alt="Linear Circuit Diagram" src="pics/linear_test_circuit_diagram.PNG?raw=true">
       </picture> <br />
   * Test circuit netlist:  <br />
         <picture>
-           <img alt="Linear Circuit Netlist" src="linear_test_circuit_netlist.PNG?raw=true">
+           <img alt="Linear Circuit Netlist" src="pics/linear_test_circuit_netlist.PNG?raw=true">
         </picture> <br />
   * Results: <br />
   
@@ -92,15 +92,15 @@
 * Test: To do the DC sweep on the test circuit in the book, use the script DCSolver_sweep.m
   * Test circuit diagram:   <br />
       <picture>
-         <img alt="Non-Linear Circuit Diagram" src="nonlinear_test_circuit_diagram.PNG?raw=true">
+         <img alt="Non-Linear Circuit Diagram" src="pics/nonlinear_test_circuit_diagram.PNG?raw=true">
       </picture> 
   * Reference Solution:   <br />
         <picture>
-           <img alt="DC Reference Solution" src="nonlinear_test_circuit_solution.PNG?raw=true">
+           <img alt="DC Reference Solution" src="pics/nonlinear_test_circuit_solution.PNG?raw=true">
         </picture>
   * Results:   <br />
         <picture>
-           <img alt="DC Result" src="DC_Solution.png?raw=true">
+           <img alt="DC Result" src="pics/DC_Solution.png?raw=true">
         </picture>
 </details>
 <details>
@@ -120,14 +120,14 @@
 * Test: 
   * Test circuit diagram:   <br />
       <picture>
-         <img alt="Transient Circuit Diagram" src="tran_test_circuit_diagram.PNG?raw=true">
+         <img alt="Transient Circuit Diagram" src="pics/tran_test_circuit_diagram.PNG?raw=true">
       </picture> 
   * Reference Solution:   <br />
         <picture>
-           <img alt="Transient Reference Solution" src="tran_test_circuit_solution.PNG?raw=true">
+           <img alt="Transient Reference Solution" src="pics/tran_test_circuit_solution.PNG?raw=true">
         </picture>
   * Results:   <br />
         <picture>
-           <img alt="Transient Result" src="TRAN_Solution.PNG?raw=true">
+           <img alt="Transient Result" src="pics/TRAN_Solution.PNG?raw=true">
         </picture>
 </details>
